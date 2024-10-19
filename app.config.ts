@@ -3,7 +3,7 @@ import { TanStackRouterVite } from '@tanstack/router-vite-plugin'
 import tsConfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
-  server: { preset: 'node-server' },
+  server: { preset: 'bun' },
   vite: {
     plugins: [
       tsConfigPaths({
